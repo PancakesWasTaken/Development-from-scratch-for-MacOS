@@ -34,5 +34,5 @@ After those processes you have just completed the structure of the app, but we a
 * CFBundleExecutable - Remember that requirement about a compiled and linked program? Well put it in the MacOS folder and put down its name in this value.
 
 Now if you had not read everything above, you need to have your compiled and linked program in the MacOS folder so that it can be found by MacOS. Now we can start the grand finale of the tutorial and finish any last checks as well as touches. Make sure you recheck your executable's position as well as the contents inside your plist file so that it should look something like this on the inside:
-![Picture showing what is supposed to be in the plist file](/images/pic3)
+![Picture showing what is supposed to be in the plist file](/images/pic3.png)
 Now assuming that you got your executable in the appropriate place and your plist file in the appropriate configuration as well as your Contents folder in the appropriate order, you can now exit out of the Contents folder and even though it still looks the same on the outside you can now launch it at will like any normal app! This has been my first tutorial and if you have any problems feel free to drop an Issue at my Github page.
