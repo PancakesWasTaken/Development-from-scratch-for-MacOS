@@ -4,6 +4,8 @@ Disclaimer: These tutorial(s) are not for beginners in programming. Currently th
 
 ### Tutorials
 * Making an app on MacOS without using Xcode  
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ## Tutorial 1: Making a simple app on MacOS without using Xcode
 
