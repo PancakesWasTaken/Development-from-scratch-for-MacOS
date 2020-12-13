@@ -12,4 +12,4 @@ You will need:
 * A compiled and linked executable program
 
 First go to your desired folder to create your app like the Desktop folder. I will be using a folder I created called MyApp. Then inside that desired folder, you should create another folder and name it something like test.app and hit enter. At the end of all of this you should have something like this:
-![](https://ibb.co/hYCvtCG)
+![What you should have:](https://ibb.co/hYCvtCG)
