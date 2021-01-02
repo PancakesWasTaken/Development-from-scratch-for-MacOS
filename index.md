@@ -83,10 +83,6 @@ After that save the Makefile, cd to your project directory and just type make to
 * AD_2
   * When dumping contents of include there is most commonly a folder with the library's name in the said include folder, just transfer the whole folder. DO NOT ATTEMPT TO DUMP THE CONTENTS OF THE FOLDER INTO THE PROJECT'S INCLUDE FOLDER.
 
-## Links for dummies 
+## Links for dummies
 
-[Github for this page](https://github.com/PancakesWasTaken/Development-from-scratch-for-MacOS)
--
-[Issues page](https://github.com/PancakesWasTaken/Development-from-scratch-for-MacOS/issues)
--
-[Pull request page](https://github.com/PancakesWasTaken/Development-from-scratch-for-MacOS/pulls)
+[Github for this page](https://github.com/PancakesWasTaken/Development-from-scratch-for-MacOS) - [Issues page](https://github.com/PancakesWasTaken/Development-from-scratch-for-MacOS/issues) - [Pull request page](https://github.com/PancakesWasTaken/Development-from-scratch-for-MacOS/pulls)
