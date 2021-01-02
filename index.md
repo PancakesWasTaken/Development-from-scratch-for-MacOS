@@ -51,6 +51,7 @@ Now if you had not read everything above, you need to have your compiled and lin
 Now assuming that you got your executable in the appropriate place and your plist file in the appropriate configuration as well as your Contents folder in the appropriate order, you can now exit out of the Contents folder and even though it still looks the same on the outside you can now launch it at will like any normal app! This has been my first tutorial and if you have any problems feel free to drop an Issue at my Github page.
 
 <p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ---
 
