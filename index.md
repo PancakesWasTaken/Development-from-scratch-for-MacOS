@@ -5,11 +5,16 @@ Disclaimer: By clicking this page and or reading anything in this page you agree
 * Currently the tutorial(s) that are available maybe incomplete and the tutorial(s) may not produce the expected result when completed.
 * I'm not responsible for any software/hardware damages from performing these tutorials.
 
-<p>&nbsp;</p>
+---
 
 ### Tutorials
 * Making a simple app on MacOS without using Xcode
-* Using external C++ libraries for MacOS applications (GCC and G++ only)
+* Using external C++ libraries for MacOS applications (gcc and g++ only)
+
+---
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <p>&nbsp;</p>
 
 ## Tutorial 1: Making a simple app on MacOS without using Xcode
@@ -48,7 +53,7 @@ Now assuming that you got your executable in the appropriate place and your plis
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-## Tutorial 2: Using external C++ libraries for MacOS applications (GCC and G++ only)
+## Tutorial 2: Using external C++ libraries for MacOS applications (gcc and g++ only)
 
 (THIS IS WIP. DUE FOR RELEASE: TBD)
 
@@ -78,7 +83,7 @@ After that save the Makefile, cd to your project directory and just type make to
 * AD_2
   * When dumping contents of include there is most commonly a folder with the library's name in the said include folder, just transfer the whole folder. DO NOT ATTEMPT TO DUMP THE CONTENTS OF THE FOLDER INTO THE PROJECT'S INCLUDE FOLDER.
 
-## Links for dummies
+## Links for dummies 
 
 [Github for this page](https://github.com/PancakesWasTaken/Development-from-scratch-for-MacOS)
 -
