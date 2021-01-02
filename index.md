@@ -1,10 +1,15 @@
 # Development from scratch for MacOS
 
-Disclaimer: These tutorial(s) are not for beginners in programming. Currently the tutorial(s) that are available maybe incomplete and the tutorial(s) may not produce the expected result when completed.
+Disclaimer: By clicking this page and or reading anything in this page you agree that:
+* These tutorial(s) are not for beginners in programming.
+* Currently the tutorial(s) that are available maybe incomplete and the tutorial(s) may not produce the expected result when completed.
+* I'm not responsible for any software/hardware damages from performing these tutorials.
+
+<p>&nbsp;</p>
 
 ### Tutorials
-* Making an app on MacOS without using Xcode
-<p>&nbsp;</p>
+* Making a simple app on MacOS without using Xcode
+* Using external C++ libraries for MacOS applications (GCC and G++ only)
 <p>&nbsp;</p>
 
 ## Tutorial 1: Making a simple app on MacOS without using Xcode
@@ -37,11 +42,46 @@ After those processes you have just completed the structure of the app, but we a
 
 Now if you had not read everything above, you need to have your compiled and linked program in the MacOS folder so that it can be found by MacOS. Now we can start the grand finale of the tutorial and finish any last checks as well as touches. Make sure you recheck your executable's position as well as the contents inside your plist file so that it should look something like this on the inside:
 ![Picture showing what is supposed to be in the plist file](/images/pic3.png)
+
 Now assuming that you got your executable in the appropriate place and your plist file in the appropriate configuration as well as your Contents folder in the appropriate order, you can now exit out of the Contents folder and even though it still looks the same on the outside you can now launch it at will like any normal app! This has been my first tutorial and if you have any problems feel free to drop an Issue at my Github page.
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-## Tutorial 2: Using external C++ libraries for MacOS applications
+## Tutorial 2: Using external C++ libraries for MacOS applications (GCC and G++ only)
 
 (THIS IS WIP. DUE FOR RELEASE: TBD)
+
+You will need:
+* Mastery of Tutorial 1
+* Makefile knowledge
+* Basic knowledge of a compiler and a linker
+* MacOS knowledge
+
+First, go to your project folder that contains your code and your Makefile. I will be using a folder called ProjectVulkan and in this case I will use Vulkan in conjunction with GLFW. Now make sure that your project folder space is neat and tidy currently as that will be needed later, trust me you don't want to learn the mistakes the hard way. After that make sure you have two folders called lib and include. This is what the folder should look somewhat like: ![Picture showing what the result should be](/images/pic4.png)
+*Note for dummies: You may not see a code file in the folder and that is because this is a demo.*
+
+Now each C++ library should have a folder that contains everything about it, make sure you open it and dump the contents of their respective lib and include folders into your project's lib and include folders, then go back and make sure you got everything in the transfer. After that, make a standard Makefile and put ```g++ [your options here] -I include -L lib -l [your library name here]``` as a make command for everything to actually work. Please copy the flags and arguments correctly as they are case sensitive, please note that you can use the -l flag as much as you like as long as it still makes sense to read the command. Here is my Makefile for example for you to refer off of: ![Picture showing the Makefile's content](/images/pic5.png)
+
+After that save the Makefile, cd to your project directory and just type make to build the project. Then using your knowledge of Tutorial 1 use/replace the executable in your app. This has been my second tutorial, if you have any problems feels free to flag up an issue for me in the Github page, thanks for reading and hope you enjoy! *For more information, please see Addendum AD_2*
+
+---
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+---
+
+## Addendum(s)
+
+* AD_2
+  * When dumping contents of include there is most commonly a folder with the library's name in the said include folder, just transfer the whole folder. DO NOT ATTEMPT TO DUMP THE CONTENTS OF THE FOLDER INTO THE PROJECT'S INCLUDE FOLDER.
+
+## Links for dummies
+
+[Github for this page](https://github.com/PancakesWasTaken/Development-from-scratch-for-MacOS)
+-
+[Issues page](https://github.com/PancakesWasTaken/Development-from-scratch-for-MacOS/issues)
+-
+[Pull request page](https://github.com/PancakesWasTaken/Development-from-scratch-for-MacOS/pulls)
