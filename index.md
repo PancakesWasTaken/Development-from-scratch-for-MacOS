@@ -72,12 +72,6 @@ After that save the Makefile, cd to your project directory and just type make to
 
 ---
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
----
-
 ## Addendum(s)
 
 * AD_2
@@ -85,7 +79,7 @@ After that save the Makefile, cd to your project directory and just type make to
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
+
 
 ## Links for dummies
 
